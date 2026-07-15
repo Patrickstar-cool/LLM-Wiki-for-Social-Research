@@ -5,7 +5,9 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
-## [2026-07-15] create | Wiki 初始化
-- 领域：社会科学知识体系
-- 创建 SCHEMA.md、index.md、log.md
-- 目录结构：raw/、paradigms/、methodologies/、theories/、disciplines/、people/、comparisons/、queries/
+## [2026-07-15] create | 初始化种子页面
+- 创建 paradigms/实证主义.md — 孔德、涂尔干到后实证主义
+- 创建 paradigms/诠释主义.md — 韦伯、格尔茨到深描
+- 创建 disciplines/社会学.md — 学科全景
+- 创建 theories/结构功能主义.md — 帕森斯 AGIL 到默顿修正
+- 更新 index.md（总页数：4）
