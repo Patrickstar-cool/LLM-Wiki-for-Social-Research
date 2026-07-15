@@ -2,20 +2,42 @@
 
 ## 领域定位
 
-本 Wiki 构建**社会科学的知识体系**——从经典范式到前沿方法，从理论脉络到现实应用，
-从学术研究到职业发展。目标是形成一个结构化、可追溯的社会科学知识网络。
+本 Wiki 构建**社会科学的知识百科全书**——不是分类目录，不是理论摘要卡片，
+而是一条**流动的思想长河**。
 
-聚焦范围：
-- **内部**：社会学、人类学、政治学、经济学、心理学等核心学科的范式演变、
-  方法论体系、理论发展脉络、前沿学术动态、学科瓶颈与未来方向、
-  社会应用价值、学生职业路径
-- **边界**：纯自然科学方法论、与社会科学无关的时政评论、非学术性的社会杂谈
+### 核心愿景
+
+> 像站在一条河流面前：你可以在任何一个时间点扎进去，
+> 顺着脉络向上追溯思想的源头，向下追踪理论的演变与对话。
+> 每一个概念都不是孤岛——你能看到它从哪里来、回应了谁、被谁修正、
+> 又如何影响了后来的思潮。
+
+### 三层深度
+
+| 层级 | 内容 | 页面类型 |
+|------|------|----------|
+| **地表** | 理论/范式的核心主张、代表人物、历史定位 | paradigm, theory, discipline |
+| **地质** | 理论产生的历史情境、回应的时代问题、与其他理论的对话与冲突 | genealogy, debate |
+| **化石** | 具体的方法论细节、研究工具的操作逻辑、经典研究的案例拆解 | methodology, case-study |
+
+### 涵盖范围
+
+- **时间跨度**：从古希腊社会思想到当代前沿（不限于"现代"）
+- **空间跨度**：西方主流 + 非西方传统（中国社会思想、拉美依附理论、非洲后殖民思想等）
+- **学派跨度**：不限于法兰克福学派/芝加哥学派，覆盖全球主要学术传统
+- **学科跨度**：社会学、人类学、政治学、经济学、心理学、传播学、教育学、人口学、犯罪学等
+
+### 非核心但必备
+
+- **应用场景**：社会科学在社会生活中的实际应用（政策制定、社会评估、市场研究、组织发展）
+- **前沿动态**：计算社会科学、AI+社科、数字民族志、行为经济学等交叉领域
+- **职业发展**：社科学生的学术路径、业界去向、核心能力培养
 
 ## 文件命名规范
 
-- 文件名：中文或英文均可，用连字符（-）连接，不加空格
-- 示例：`实证主义范式.md`、`田野调查方法论.md`、`布尔迪厄-场域理论.md`
-- 每个页面以 YAML frontmatter 开头（见下方模板）
+- 中文或英文均可，连字符连接，不加空格
+- 示例：`实证主义范式.md`、`田野调查方法论.md`、`马克思-韦伯-涂尔干对话.md`
+- YAML frontmatter 开头
 
 ## Frontmatter 模板
 
@@ -24,99 +46,148 @@
 title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: paradigm | methodology | theory | discipline | concept | person | comparison | query
+type: paradigm | theory | methodology | genealogy | discipline | person | debate | case-study | application | career | timeline
+era: 古典 | 现代早期 | 现代 | 当代  # 所属时代
 tags: [从下方标签分类中选择]
-sources: [raw/articles/来源文件名.md]
+sources: [raw/...]
 confidence: high | medium | low
 contested: false | true
+preceded_by: [前一阶段页面]   # 河流上游
+followed_by: [后一阶段页面]    # 河流下游
+responds_to: [回应的理论/问题]  # 对话关系
 ---
 ```
 
-- `type`：范式（paradigm）、方法论（methodology）、理论（theory）、
-  学科（discipline）、概念（concept）、人物（person）、对比分析（comparison）、
-  查询存档（query）
-- `confidence`：多源交叉验证 → high；单一可信源 → medium；有争议 → low
-- `contested`：存在学术争议时标记为 true
+- `era`：帮助读者在历史长河中定位
+- `preceded_by / followed_by`：构建时间流（非强制，有则填）
+- `responds_to`：标注理论对话关系——这是"河流"感的关键
+
+## 页面类型详解
+
+### paradigm（范式）
+不只是"是什么"，而是：
+- 产生的历史情境——为什么在那个时代、那个地方出现？
+- 与之前范式的断裂在哪里？
+- 内部的分化与张力
+- 对后续研究的实际影响（而非只是哲学主张）
+
+### theory（理论）
+- 核心命题 + 概念工具箱
+- 提出者/提出时刻的学术与社会背景
+- 经验研究中的验证/应用/修正
+- 与其他理论的对话、融合、冲突
+- 理论的演变——不是"某人在某年提出了 X"就完了
+
+### methodology（方法论）
+- 方法的核心逻辑（不只是操作步骤）
+- 产生的学科与传统
+- 演变历程（如：田野调查从马林诺夫斯基到数字民族志）
+- 与特定理论/范式的亲和性
+- 具体操作细节、经典案例拆解
+- 局限与应对策略
+
+### genealogy（谱系）
+这是本 Wiki 的**特色页面类型**——描绘一条思想流变的主线：
+- 如"从结构功能主义到冲突论到批判理论"的演变逻辑
+- 如"实证主义方法论在过去 150 年的分化"
+- 每个节点标注关键人物、著作、转折事件
+- 用 `preceded_by → followed_by` 链接串联
+
+### debate（争论）
+- 争论的核心问题
+- 各方立场与论证
+- 争论的历史演变
+- 当下的共识与分歧
+
+### case-study（经典案例）
+- 研究背景与问题
+- 方法论细节
+- 发现与理论贡献
+- 后续引发的讨论与修正
+
+### discipline（学科）
+- 学科界定与边界
+- 核心问题意识
+- 历史演变
+- 与邻近学科的关系
+- 当代热点与瓶颈
+
+### person（人物）
+- 生平与学术轨迹
+- 核心贡献
+- 所属传统与对话对象
+- 后世影响与批评
+
+### application（应用）
+- 应用领域与场景
+- 所用的理论/方法论基础
+- 典型案例
+- 效果与局限
+
+### career（职业）
+- 职业路径与去向
+- 所需核心能力
+- 发展趋势
 
 ## 标签分类
 
-使用标签前必须确认已在此列表中。新增标签须先添加到此文件。
+### 时代
+`ancient` `early-modern` `modern` `contemporary`
 
 ### 范式
 `positivism` `interpretivism` `critical-theory` `postmodernism` `post-positivism`
-`constructivism` `pragmatism` `realism`
+`constructivism` `pragmatism` `realism` `feminism` `postcolonial`
 
 ### 方法论
 `quantitative` `qualitative` `mixed-methods` `ethnography` `survey` `experiment`
 `case-study` `comparative` `longitudinal` `discourse-analysis` `grounded-theory`
+`historical-analysis` `action-research` `digital-methods`
 
 ### 理论传统
-`classical-theory` `contemporary-theory` `grand-theory` `middle-range-theory`
-`micro-theory` `macro-theory` `structuralism` `functionalism` `conflict-theory`
-`symbolic-interactionism` `rational-choice` `phenomenology`
+`functionalism` `conflict-theory` `symbolic-interactionism` `rational-choice`
+`structuralism` `post-structuralism` `phenomenology` `systems-theory`
+`marxism` `neo-marxism` `feminist-theory` `postcolonial-theory`
+`critical-race-theory` `queer-theory`
 
 ### 学科领域
 `sociology` `anthropology` `political-science` `economics` `psychology`
 `communication` `education` `demography` `criminology` `gender-studies`
-`urban-studies` `organizational-studies`
+`urban-studies` `organizational-studies` `social-work`
 
 ### 学术前沿
 `computational-social-science` `AI-social-science` `big-data` `network-analysis`
-`digital-ethnography` `behavioral-economics` `neuro-sociology`
+`digital-ethnography` `behavioral-economics` `environmental-sociology`
 
-### 应用
+### 应用领域
 `policy` `social-work` `market-research` `urban-planning` `public-health`
-`organizational-dev` `evaluation` `consulting`
+`organizational-dev` `evaluation` `consulting` `education-practice`
 
-### 职业发展
+### 职业
 `academia` `industry` `public-sector` `NGO` `career-path`
 
-## 页面创建门槛
+## 页面创建门槛与深度要求
 
-- **创建新页面**：一个范式/理论/方法论在 2+ 个来源中出现，或在某个来源中处于核心地位
-- **补充现有页面**：新来源提到已有页面的内容，追加信息并刷新 updated 日期
-- **不创建**：一笔带过的提及、无关紧要的细节、超出领域范围的内容
-- **拆分页面**：当页面超过 ~200 行时，拆分为子主题并添加交叉链接
-- **归档页面**：内容已完全过时 → 移入 `_archive/`，从 index 移除
+### 创建门槛
+- 在 2+ 来源中出现，或在某个来源中处于核心地位
+- 有足够的材料支撑「不只是摘要」的深度写作
 
-## 范式页面结构
+### 深度要求（关键！）
+每个页面必须回答的不只是"是什么"，还有：
+- **为什么在这个时候出现？**（历史情境）
+- **它在回应谁/什么？**（对话关系）
+- **它被谁修正/挑战了？**（后续演变）
+- **它的实际影响是什么？**（不只是思想史，还有研究实践）
 
-每个范式页面应包含：
-- 核心主张（一句话概括）
-- 哲学基础与渊源
-- 对本学科研究实践的影响
-- 代表人物与经典著作
-- 批评与局限
-- 与其他范式的关系（[[维基链接]]）
-
-## 理论页面结构
-
-每个理论页面应包含：
-- 理论概述与核心命题
-- 提出者、提出时间、学术背景
-- 理论框架与关键概念
-- 经验验证与应用案例
-- 理论批评与发展演变
-- 相关理论（[[维基链接]]）
-
-## 方法论页面结构
-
-每个方法论页面应包含：
-- 方法概述与适用场景
-- 操作步骤与核心工具
-- 优势与局限
-- 与其他方法的关系（[[维基链接]]）
+### 不创建
+- 一笔带过、无法展开深度写作的
+- 与已有页面高度重复、无独特价值的
+- 来源不足以支撑深度写作的
 
 ## 更新策略
 
-当新信息与已有内容矛盾时：
-1. 检查信息来源的时效性——新研究通常优先
-2. 如确实矛盾，同时记录两种观点，标注时间和来源
-3. 在 frontmatter 中标记 `contested: true`
-4. 在 lint 报告中标记供人工审核
+同原有规则：矛盾时保留双方说法并标注，标记 contested。
 
 ## 来源追溯
 
-- 每个 `raw/` 中的源文件须有 frontmatter：`source_url`、`ingested`、`sha256`
-- 综合 3+ 来源的页面，在段落末尾加 `^[raw/articles/来源.md]` 标注
-- 重新摄入同一 URL 时，对比 sha256：不变则跳过，变化则更新
+同原有规则：raw/ 文件必须标注 source_url、ingested、sha256。
+综合 3+ 来源的页面加 `^[raw/...]` 标注。

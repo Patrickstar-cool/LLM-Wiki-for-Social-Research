@@ -5,7 +5,12 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
-## [2026-07-15] create | Wiki 初始化 + 种子页面
+## [2026-07-15] restructure | 方向升级：从分类目录 → 百科全书式思想长河
+- 重写 SCHEMA.md：三层深度（地表/地质/化石）、era/preceded_by/followed_by/responds_to 河流脉络系统
+- 创建 timelines/社会科学思想长河.md — 从古希腊到 AI 时代的全景地图
+- 创建 genealogies/社会学理论三大传统的对话.md — 马克思/涂尔干/韦伯三条河的源流与合流
+- 更新 index.md（总页数：8，新增「主干河流」「理论谱系」等分区）
+- 新增目录：timelines/、genealogies/、debates/、cases/、applications/、careers/
 - 领域：社会科学知识体系
 - 创建 SCHEMA.md、index.md、log.md、目录结构
 - 创建 paradigms/实证主义.md — 孔德、涂尔干到后实证主义
