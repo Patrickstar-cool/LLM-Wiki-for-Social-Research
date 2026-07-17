@@ -20,6 +20,16 @@
 - 更新 index.md（总页数：4）
 
 ## [2026-07-15] ingest | 斯坦福批判理论 + CSS 2026 会议
+
+## [2026-07-17] ingest | 去殖民方法论 + 原住民认识论（3篇开放获取论文）
+- 摄入 raw/papers/chaves-perez-2025-sentipensar.md — Frontiers in Sociology, 2025, sentipensar 与 Nasa 原住民认识论
+- 摄入 raw/papers/kwachou-2025-decolonisation.md — Open Research Europe, 2025, 去殖民化作为认识论去中心化
+- 摄入 raw/papers/adjei-moss-2026-academic-boldness.md — Human Arenas (Springer), 2026, 学术勇气与去殖民化知识生产
+- 创建 methodologies/去殖民研究方法论.md — 认识论去中心化、sentipensar 田野工作、三条操作路径
+- 创建 concepts/原住民认识论.md — sentipensar 详解、多元宇宙、认识论多元主义的社会科学后果
+- 更新 theories/后殖民理论.md — 添加来源、交叉引用新页面
+- 更新 index.md（总页数：47 → 49）
+- 更新 log.md
 - 摄入 raw/articles/stanford-critical-theory-2025.md（Stanford Encyclopedia of Philosophy，2025 版）
 - 摄入 raw/articles/css-2026-conference.md（CSSSA，2026 年会信息）
 - 创建 paradigms/批判理论.md — 法兰克福学派、三代演变、核心概念与当代发展
