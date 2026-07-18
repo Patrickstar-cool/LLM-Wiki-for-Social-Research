@@ -3,5 +3,9 @@
   "realclaudian",
   "omnisearch",
   "obsidian-trash-explorer",
-  "pdf-plus"
+  "pdf-plus",
+  "obsidian-pandoc",
+  "obsidian-pandoc-reference-list",
+  "docxer",
+  "obsidian-excel-to-markdown-table"
 ]
