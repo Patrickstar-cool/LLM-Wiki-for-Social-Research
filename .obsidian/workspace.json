@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "b4a5ca79638156da",
+    "id": "cf360239e23f6f2f",
     "type": "split",
     "children": [
       {
-        "id": "9fd4c513893400a8",
+        "id": "96bb9000d90bcae2",
         "type": "tabs",
         "children": [
           {
-            "id": "b29627bfcdbbf7e0",
+            "id": "c998cbe8a691557a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "粘贴板.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "粘贴板"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "90ebe24cb5b1404a",
+    "id": "2978488421a2a7be",
     "type": "split",
     "children": [
       {
-        "id": "4db392d7f0604f00",
+        "id": "23e245f5a4a4c9e8",
         "type": "tabs",
         "children": [
           {
-            "id": "7a5c413277d4e84b",
+            "id": "95833a5c946c4ce8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +48,12 @@
             }
           },
           {
-            "id": "813e45a4d0f25dcf",
+            "id": "00839a9318a95b96",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"excalidraw-plugin\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "82d668ce0b25a689",
+            "id": "6a451403cdb2de76",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,27 +73,38 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "3a1bc633a470801b",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "trash-explorer"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "7023ce0c34219d8f",
+    "id": "fecba18a7ee8077d",
     "type": "split",
     "children": [
       {
-        "id": "40a5a5ac793dd8e1",
+        "id": "db59f4b60181177f",
         "type": "tabs",
         "children": [
           {
-            "id": "12b76c8334bbdb7e",
+            "id": "e941ce4ef37cf000",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "日常随手记/过年.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +114,49 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "过年 的反向链接列表"
             }
           },
           {
-            "id": "5ed7a1f1c871cfd7",
+            "id": "2d050c0400f6dfcd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "日常随手记/过年.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "过年 的出链列表"
             }
           },
           {
-            "id": "df0962dd2da1e88f",
+            "id": "3eaf6415eabae5bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "2455d926f89d9bc7",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "fd72ab003cfa2084",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +171,7 @@
             }
           },
           {
-            "id": "d5802ac0b14c7d57",
+            "id": "989b17d2d8472d6b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -143,54 +183,17 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "60712af8dd9b453d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "8a74d4b320e643ce",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {},
-              "icon": "lucide-file-signature",
-              "title": "脚注"
-            }
-          },
-          {
-            "id": "3c58cdfafdb55258",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "excalidraw-sidepanel"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 371.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -200,39 +203,63 @@
       "bases:新建数据库": false,
       "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
-      "zk-prefixer:创建时间戳笔记": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "realclaudian:Open Claudian": false,
+      "zk-prefixer:创建时间戳笔记": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "realclaudian:Open Claudian": false,
       "omnisearch:Omnisearch": false,
-      "nutstore-sync:开始同步": false,
-      "nutstore-sync:停止同步": false,
-      "nutstore-sync:打开 Chatbox": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b29627bfcdbbf7e0",
+  "active": "c998cbe8a691557a",
   "lastOpenFiles": [
-    "扎根理论方法论.md",
-    "index.md",
-    "theories/世界体系理论.md",
-    "theories/社会建构论.md",
-    "theories/结构功能主义.md",
-    "theories/符号互动论.md",
-    "paradigms/实证主义.md",
-    "paradigms/诠释主义.md",
-    "paradigms/批判理论.md",
-    "methodologies/质性研究方法论.md",
-    "methodologies/田野调查的演化.md",
-    "methodologies/定量研究方法论.md",
-    "Excalidraw/Drawing 2026-07-15 19.10.08.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
+    "备忘.md",
+    "粘贴板.md",
+    "English learning/英语兔_学习行动手册_课时01.pdf",
+    "English learning/英语兔_学习行动手册_课时03.pdf",
+    "Account Management/Personal Account and Keywords.md",
+    "English learning/英语兔_学习行动手册_课时10.pdf",
+    "English learning/英语兔_学习行动手册_课时09.pdf",
+    "English learning/英语兔_学习行动手册_课时08.pdf",
+    "English learning/英语兔_学习行动手册_课时07.pdf",
+    "English learning/英语兔_学习行动手册_课时06.pdf",
+    "English learning/英语兔_学习行动手册_课时05.pdf",
+    "English learning/英语兔_学习行动手册_课时04.pdf",
+    "English learning/英语兔_学习行动手册_课时02.pdf",
+    "账号密码备份保存/Personal Account and Keywords.md",
+    "研究方法笔记/Ground theory learning.md",
+    "账号密码备份保存/账号密码保存 截至2206.7.15.md",
+    "技术笔记/Git 入门笔记.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-16 07.40.36.excalidraw.md",
+    "未命名思维导图.md",
+    "测试功能文件夹/PDF++测试/PDF 笔记测试.md",
+    "测试功能文件夹/PDF++测试/未命名思维导图.md",
+    "node_modules/lz-string/README.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 22.38.07.excalidraw.md",
+    "Excalidraw/cropped_EconIndex6-I.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 21.26.01.excalidraw.md",
+    "测试功能文件夹/第二个测试笔记链接.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 20.12.42.excalidraw.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 20.09.02.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
+    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 19.58.44.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-15 12.47.22.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-15 19.56.35.excalidraw.md",
+    "测试功能文件夹/PDF++测试/PDF++ 测试.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw/Scripts/Downloaded/Mindmap connector.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
-    "disciplines/社会学.md",
-    "欢迎.md"
+    "Excalidraw/Scripts/Downloaded/Grid Selected Images.svg",
+    "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
+    "Excalidraw/Scripts/Downloaded/Image Occlusion.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
+    "文献/PDF++测试/Marginnote用法尝试.canvas",
+    "测试功能文件夹/第一个白板.canvas",
+    "测试功能文件夹/Pasted image 20260715103049.png",
+    "未命名 1.canvas"
   ]
 }

@@ -188,6 +188,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -201,7 +204,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "realclaudian:Open Claudian": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "nutstore-sync:开始同步": false,
+      "nutstore-sync:停止同步": false,
+      "nutstore-sync:打开 Chatbox": false
     }
   },
   "active": "b29627bfcdbbf7e0",

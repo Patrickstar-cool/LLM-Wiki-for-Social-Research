@@ -44,10 +44,6 @@
     {
       "name": "Quote in callout",
       "template": "> [!{{calloutType}}|{{color}}] {{linkWithDisplay}}\n> > {{text}}\n> \n> "
-    },
-    {
-      "name": "Mindmap",
-      "template": "[【{{linktext}}|{{text}}】]"
     }
   ],
   "useAnotherCopyTemplateWhenNoSelection": false,
@@ -104,7 +100,7 @@
   "ignoreExistingMarkdownTabIn": [],
   "defaultColorPaletteActionIndex": 4,
   "syncColorPaletteAction": true,
-  "syncDefaultColorPaletteAction": true,
+  "syncDefaultColorPaletteAction": false,
   "proxyMDProperty": "PDF",
   "hoverPDFLinkToOpen": false,
   "ignoreHeightParamInPopoverPreview": true,
@@ -114,8 +110,8 @@
   "recordPDFInternalLinkHistory": true,
   "alwaysRecordHistory": true,
   "renderMarkdownInStickyNote": false,
-  "enablePDFEdit": true,
-  "author": "Patrick",
+  "enablePDFEdit": false,
+  "author": "",
   "writeHighlightToFileOpacity": 0.2,
   "defaultWriteFileToggle": false,
   "syncWriteFileToggle": true,
@@ -196,7 +192,7 @@
   "executeBuiltinCommandForZoom": true,
   "executeFontSizeAdjusterCommand": true,
   "closeSidebarWithShowCommandIfExist": true,
-  "autoHidePDFSidebar": true,
+  "autoHidePDFSidebar": false,
   "defaultSidebarView": 1,
   "outlineDrag": true,
   "outlineContextMenu": true,
@@ -225,9 +221,9 @@
   "clearSelectionAfterAutoPaste": true,
   "respectCursorPositionWhenAutoPaste": true,
   "blankLineAboveAppendedContent": true,
-  "autoCopy": true,
+  "autoCopy": false,
   "autoFocus": false,
-  "autoPaste": true,
+  "autoPaste": false,
   "autoFocusTarget": "last-active-and-open-then-last-paste",
   "autoPasteTarget": "last-active-and-open-then-last-paste",
   "openAutoFocusTargetIfNotOpened": true,
