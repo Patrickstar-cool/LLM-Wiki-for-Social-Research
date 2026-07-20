@@ -5,6 +5,18 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-20] ingest | 依附理论 + 差序格局更新（3篇来源）
+
+- 摄入 raw/articles/schmidt-2018-dependency-theory.md — Global South Studies，依附理论完整概述
+- 摄入 raw/papers/hesketh-2024-dependency-dialectics.md — Alternautas（开放获取），依附理论的辩证复兴：生态-空间转向
+- 摄入 raw/papers/hu-2024-differential-mode-association.md — The China Review，差序格局的当代定量验证
+- 创建 theories/依附理论.md — 依附理论的完整百科页面：历史情境、两个阵营、核心概念、衰落与生态复兴
+- 更新 concepts/差序格局.md — 添加 Hu (2024) 全国调查的 7 项关键发现（父系原则消解！）
+- 更新 theories/世界体系理论.md — 修复交叉引用，链接新依附理论页面
+- 更新 theories/后殖民理论.md — 添加依附理论交叉引用
+- 更新 index.md（总页数：49 → 50）
+- 更新 log.md
+
 ## [2026-07-15] restructure | 方向升级：从分类目录 → 百科全书式思想长河
 - 重写 SCHEMA.md：三层深度（地表/地质/化石）、era/preceded_by/followed_by/responds_to 河流脉络系统
 - 创建 timelines/社会科学思想长河.md — 从古希腊到 AI 时代的全景地图
