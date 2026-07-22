@@ -5,6 +5,17 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-22] ingest | AI 时代质性研究 + 社会模拟三代演进 + 差序格局共情研究（3篇来源）
+
+- 摄入 raw/papers/abramson-2026-qualitative-ai.md — Abramson et al. (2026), 即将刊于 Annual Review of Sociology Vol 52，质性研究在 AI 时代的五种路径分类法
+- 摄入 raw/papers/cau-2026-social-simulations-abm-digital-twins.md — Cau et al. (2026), Encyclopedia of SNAM，社会模拟从 ABM 到 LLM-ABM 到数字孪生的三代演进
+- 摄入 raw/papers/zhu-2026-empathy-chaxu-geju.md — Zhu & Yang (2026), 《心理科学进展》，差序格局框架下的中国文化共情研究
+- 更新 methodologies/质性研究方法论.md — 新增「AI 时代的质性研究」章节：五种路径分类、历史语境、务实的中间道路论证
+- 更新 concepts/计算社会科学.md — 新增「社会模拟的三代演进」章节：经典 ABM → LLM-ABM → 社会数字孪生
+- 更新 concepts/差序格局.md — 新增「差序格局与共情」章节：亲疏/尊卑双重挑战、中国文化共情三特征
+- 更新 index.md（总页数保持 50，更新日期）
+- 更新 log.md
+
 ## [2026-07-20] ingest | 依附理论 + 差序格局更新（3篇来源）
 
 - 摄入 raw/articles/schmidt-2018-dependency-theory.md — Global South Studies，依附理论完整概述
