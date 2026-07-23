@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "粘贴板.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "粘贴板"
+              "title": "index"
             }
           }
         ]
@@ -215,8 +215,17 @@
   },
   "active": "c998cbe8a691557a",
   "lastOpenFiles": [
-    "备忘.md",
     "粘贴板.md",
+    "index.md",
+    "log.md",
+    "扎根理论方法论.md",
+    "raw/papers/hu-2024-differential-mode-association.md",
+    "raw/papers/hesketh-2024-dependency-dialectics.md",
+    "raw/papers/adjei-moss-2026-academic-boldness.md",
+    "raw/papers/abramson-2026-qualitative-ai.md",
+    "raw/articles/css-2026-conference.md",
+    "raw/articles/schmidt-2018-dependency-theory.md",
+    "备忘.md",
     "English learning/英语兔_学习行动手册_课时01.pdf",
     "English learning/英语兔_学习行动手册_课时03.pdf",
     "Account Management/Personal Account and Keywords.md",
@@ -242,18 +251,9 @@
     "测试功能文件夹/PDF++测试/Drawing 2026-07-15 21.26.01.excalidraw.md",
     "测试功能文件夹/第二个测试笔记链接.md",
     "测试功能文件夹/PDF++测试/Drawing 2026-07-15 20.12.42.excalidraw.md",
-    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 20.09.02.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap Builder.md",
-    "测试功能文件夹/PDF++测试/Drawing 2026-07-15 19.58.44.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-15 12.47.22.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-15 19.56.35.excalidraw.md",
-    "测试功能文件夹/PDF++测试/PDF++ 测试.md",
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw/Scripts/Downloaded/Mindmap connector.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap connector.md",
     "Excalidraw/Scripts/Downloaded/Grid Selected Images.svg",
-    "Excalidraw/Scripts/Downloaded/Grid Selected Images.md",
     "Excalidraw/Scripts/Downloaded/Image Occlusion.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap Builder.svg",
     "文献/PDF++测试/Marginnote用法尝试.canvas",
