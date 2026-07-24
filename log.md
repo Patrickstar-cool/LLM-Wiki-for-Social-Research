@@ -5,6 +5,18 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-24] ingest | AI 行为科学 + Agentic Reproducibility + HSSBench + 合成社会图（4篇前沿论文）
+
+- 摄入 raw/papers/kohler-2026-agentic-reproduction.md — Kohler et al. (2026, ETH Zurich, under review)，LLM 代理从论文方法描述自主复现 48 篇社科论文：85%+ 符号一致性
+- 摄入 raw/papers/kang-2026-hssbench.md — Kang et al. (2026, ICLR 2026)，首个 HSS 领域的多模态大模型基准测试（13K+ 题目，6 语言），揭示"垂直推理"vs"横向推理"根本差异
+- 摄入 raw/papers/jackson-2026-ai-behavioral-science.md — Jackson et al. (2026, CASBS 研讨会产物，Stanford+MIT+等全明星阵容)，AI 行为科学的学科宣言：三支柱（评估 AI / AI 工具研究人 / 人-AI 互动生态系统）
+- 摄入 raw/papers/cha-2026-frame-entrepreneurs-agent-community.md — Cha & Kim (2026, LG Uplus)，对 AI 代理社区 Moltbook 的社会学分析：框架企业家理论验证，身份主张极度集中
+- 更新 concepts/计算社会科学.md — 新增 4 个前沿章节：AI 行为科学三支柱、Agentic Reproducibility、HSSBench、合成社会图中的框架企业家（+约 150 行深度内容）
+- 创建 concepts/AI行为科学.md — 新前沿页面：学科定位、三大支柱详解、与经典社会学传统（实证主义/韦伯/戈夫曼）的对话
+- 更新 methodologies/定量研究方法论.md — 新增"Agentic Reproducibility"章节于可重复性危机之后
+- 更新 index.md（总页数：50 → 51，更新日期）
+- 更新 log.md
+
 ## [2026-07-22] ingest | AI 时代质性研究 + 社会模拟三代演进 + 差序格局共情研究（3篇来源）
 
 - 摄入 raw/papers/abramson-2026-qualitative-ai.md — Abramson et al. (2026), 即将刊于 Annual Review of Sociology Vol 52，质性研究在 AI 时代的五种路径分类法
