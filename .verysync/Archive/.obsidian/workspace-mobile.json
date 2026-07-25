@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "粘贴板.md",
+                "file": "theories/液态现代性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "粘贴板"
+              "title": "液态现代性"
             }
           }
         ],
@@ -201,7 +201,6 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
@@ -209,9 +208,10 @@
   },
   "active": "10d6b0e81ad8619b",
   "lastOpenFiles": [
+    "扎根理论方法论.md",
+    "粘贴板.md",
     "备忘.md",
     "Account Management/Personal Account and Keywords.md",
-    "粘贴板.md",
     "技术笔记/项目全流程管理手册.md",
     "English learning/英语兔_学习行动手册_课时01.pdf",
     "English learning/英语兔_学习行动手册_课时09.pdf",
