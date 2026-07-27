@@ -5,6 +5,19 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-27] ingest | 意识形态计算框架 + 多元宇宙分析 + 计算基础理论 + 劳动过程理论（4篇前沿论文）
+
+- 摄入 raw/papers/joseph-2026-ideology-framework.md — Joseph, Williams & Lazer (2026, U Buffalo/Northeastern/Portland State)，意识形态作为多层社会-认知概念网络的计算框架，桥接 NLP+CSS 与意识形态理论
+- 摄入 raw/papers/linde-2026-multiverse-analysis-css.md — Linde et al. (2026, GESIS)，多元宇宙分析在计算社会科学中的应用：三个案例研究 + "计算失败应被报告"的论证
+- 摄入 raw/papers/sfi-2026-computational-foundations.md — SFI 等多机构 (2026)，社会作为分布式计算系统的理论视角：四个社会计算现象 + CS 理论资源
+- 摄入 raw/papers/qin-2026-labor-process-theory-hci.md — Qin & Cheon (2026, CHI'26 接收)，劳动过程理论（马克思→布雷弗曼→布若威）在 HCI/设计领域的系统引入
+- 创建 concepts/意识形态的计算框架.md — 意识形态 = 归因的多层社会-认知概念网络；与曼海姆、葛兰西、福柯的对话；NLP 任务的操作化方向
+- 创建 theories/劳动过程理论.md — LPT 理论谱系：马克思→布雷弗曼→布若威→当代算法管理；LPT × HCI 七个研究方向；与韦伯/批判理论/符号互动论的对话
+- 更新 concepts/计算社会科学.md — 新增"多元宇宙分析"章节（Linde et al.：CSS 的 N 条分析路径、计算失败应发表）+ "计算基础理论"章节（SFI：社会=分布式计算，四个核心现象，与斯密/涂尔干/韦伯/哈耶克/阿罗的对话）；frontmatter 更新 + 交叉引用新增 2 条
+- 更新 paradigms/批判理论.md — 新增"劳动过程理论"作为当代发展方向；frontmatter 更新 + 交叉引用新增 3 条
+- 更新 index.md（总页数：51 → 53，新增 theories/劳动过程理论、concepts/意识形态的计算框架）
+- 更新 log.md
+
 ## [2026-07-24] ingest | AI 行为科学 + Agentic Reproducibility + HSSBench + 合成社会图（4篇前沿论文）
 
 - 摄入 raw/papers/kohler-2026-agentic-reproduction.md — Kohler et al. (2026, ETH Zurich, under review)，LLM 代理从论文方法描述自主复现 48 篇社科论文：85%+ 符号一致性
