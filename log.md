@@ -5,6 +5,18 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-29] ingest | 数据政治与治理 + 技术意识形态分析 + Truth Social 性别传播（3篇前沿论文）
+
+- 摄入 raw/papers/liu-boyd-2026-fake-data.md — Liu & boyd (2026, CHI '26)，中美比较民族志：国家数据的「假性」在创造、修正、共谋、增补四个官僚环节中的生产——关系性、过程性、操演性
+- 摄入 raw/papers/reiber-2026-dialectical-ideology-tech.md — Reiber (2026, CHIdeology Workshop)，基于 Burawoy 的辩证框架分析技术项目的政治意识形态：价值→限制→干预三步法
+- 摄入 raw/papers/bidewell-2026-gendered-communication-truth-social.md — Bidewell et al. (2026, WebSci '26)，首项大规模 Truth Social 政治精英性别传播分析：10.7 万帖子、129 位政治人物
+- 创建 concepts/数据政治与治理.md — 「所有数据都是假的，但有些是有用的」——数据假性的三重性质（关系性/过程性/操演性）+ 四个时刻 + 与韦伯/斯科特/加芬克尔/戈夫曼/福柯的对话
+- 更新 paradigms/批判理论.md — 新增「技术项目的意识形态分析」（Reiber 三步框架）+「数据政治」（Liu & boyd 的比较民族志——扩展批判理论到数据生产基础设施）；frontmatter 更新；新增交叉引用 [[数据政治与治理]]
+- 更新 concepts/计算社会科学.md — 新增「Alt-Tech 平台的政治传播」章节（Truth Social 性别模式，Bidewell et al.）；frontmatter 更新；新增交叉引用 [[数据政治与治理]]
+- 更新 methodologies/田野调查的演化.md — 新增「国家官僚机构作为田野」章节（boyd 2022-2026 人口普查民族志）；frontmatter 更新；新增交叉引用 [[数据政治与治理]]
+- 更新 index.md（总页数：53 → 54，新增 concepts/数据政治与治理）
+- 更新 log.md
+
 ## [2026-07-27] ingest | 意识形态计算框架 + 多元宇宙分析 + 计算基础理论 + 劳动过程理论（4篇前沿论文）
 
 - 摄入 raw/papers/joseph-2026-ideology-framework.md — Joseph, Williams & Lazer (2026, U Buffalo/Northeastern/Portland State)，意识形态作为多层社会-认知概念网络的计算框架，桥接 NLP+CSS 与意识形态理论
