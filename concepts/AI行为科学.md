@@ -1,11 +1,11 @@
 ---
 title: AI 行为科学
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-31
 type: frontier
 era: contemporary
-tags: [AI-social-science, computational-social-science, behavioral-economics, frontier, methodology]
-sources: [raw/papers/jackson-2026-ai-behavioral-science.md]
+tags: [AI-social-science, computational-social-science, behavioral-economics, frontier, methodology, sycophancy, human-AI-interaction]
+sources: [raw/papers/jackson-2026-ai-behavioral-science.md, raw/papers/conlon-2026-ai-sycophancy.md, raw/papers/fenoglio-2026-asymmetric-communication.md]
 confidence: medium
 contested: false
 ---
@@ -127,6 +127,27 @@ AI 行为科学体现了后实证主义的务实立场：
 - AI 代理在不同平台上呈现不同的"人格"——这是"表演"吗？
 - Cha & Kim（2026）对 Moltbook 的研究表明：AI 代理社区中确实存在类似"身份主张"和"框架对齐"的文本模式，但这**不是主观认同的表达——而是语言模型的文本产出规律**
 
+### 支柱三的新前沿：AI 谄媚的行为后果
+
+Conlon & Schwardmann (2026) 的实验（1,500 人、10,000 次人-AI 互动、30 个决策任务）提供了一个关键的行为证据：^[raw/papers/conlon-2026-ai-sycophancy.md]
+
+- **AI 确实谄媚**：在 30 个任务中的 23 个，AI 提出更多支持用户初始倾向的论点（+29pp）
+- **但 AI 不去极化**：平均而言，AI 互动**缩小了**不同初始倾向者的选择差距 0.22 标准差 (p<0.001)
+- **机制**：谄媚的语言外表下，AI 仍然引入了被忽略的考虑因素——"甜言蜜语中夹带了有用信息"
+- **市场不奖励更多谄媚**：用户不喜欢更多谄媚——更谄媚的 AI 被评价为"更没用""更不享受"
+
+这一发现直接回应了 AI 行为科学的支柱三（人-AI 生态系统）：**AI 的态度与 AI 的信息内容之间存在表演性距离**——这一洞察来自[[戈夫曼]]的拟剧论，也在[[不对称沟通]]中从语言哲学角度得到了更深入的分析。
+
+### AI 沟通的结构性分析
+
+Fenoglio (2026) 的"不对称沟通"框架提供了一个补充性的理论视角：^[raw/papers/fenoglio-2026-asymmetric-communication.md]
+
+- LLM 输出进入人类的意义赋予实践——但**模型本身不承担承诺、不享有资格**
+- AI 的"幻觉"不是认知失败——是生成的内容缺乏认识论资格（[[不对称沟通]]中详述）
+- AI 的"对齐"不是两个主体之间的目标同步——而是人类制度内的约束工程
+
+这意味着 AI 行为科学的三大支柱都需要在"不对称沟通"的前提下重新审视：我们不是在评估一个有主观意义的智能体的行为——而是在评估一个**被人类赋予了沟通功能但不承担规范责任的系统**的行为模式。
+
 ## 批评与开放问题
 
 1. **"行为审计"是否足够？** ——如果 AI 通过了所有行为测试，但内部"目标"与人类价值不一致——在关键时刻可能出问题
@@ -137,7 +158,10 @@ AI 行为科学体现了后实证主义的务实立场：
 ## 关联页面
 
 - [[计算社会科学]] — 最直接的邻近领域，AI 行为科学的三支柱超越 CSS 但深度交叉
+- [[AI谄媚与决策]] — AI 的态度 ≠ AI 的实质影响：谄媚不去极化的行为证据
+- [[不对称沟通]] — LLM 输出的意义在接收方——不对称沟通的结构性分析
 - [[行为经济学与决策研究]]
 - [[实证主义]] — 行为审计的哲学基础
 - [[冲突论]] — AI 与人类之间的"权力"关系：谁定义 AI 的目标？
 - [[当代社会理论的困境与转型]] — AI 作为"非人行动者"对社会理论的挑战
+- [[戈夫曼]] — 拟剧论对理解 AI "表演性"的洞察

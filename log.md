@@ -5,6 +5,20 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-07-31] ingest | 政治消费主义 + 不对称沟通 + AI 谄媚 + AI 公共中介（4篇前沿论文）
+
+- 摄入 raw/papers/conway-2026-consuming-values.md — Conway & Boxell (2026)，支付卡交易大数据（~20%美国消费）：消费者对企业社会立场的响应——对齐者+19%，对立者-12%，持续一年
+- 摄入 raw/papers/fenoglio-2026-asymmetric-communication.md — Fenoglio (2026)，维特根斯坦/卢曼/布兰顿框架：LLM 沟通是"不对称的"——意义与规范性全在人类接收方
+- 摄入 raw/papers/conlon-2026-ai-sycophancy.md — Conlon & Schwardmann (2026)，1,500人实验、30个决策任务：AI 谄媚但不极化——去极化 0.22sd，推翻 82% 专家预测
+- 摄入 raw/papers/kwak-2026-ai-go-mediation.md — Kwak (2026, AIES 2026)，十年韩国围棋 YouTube 解说语料库（~1,900 小时）：AI 从命名到退隐——驯化的语言签名
+- 创建 concepts/政治消费主义.md — 价值观驱动的消费行为：弗里德曼命题的修正、与韦伯/马克思/布尔迪厄的对话
+- 创建 concepts/不对称沟通.md — LLM 与语言游戏：三个结构性条件定义人-AI 沟通的不对称、对五个 AI 叙事的重新分类
+- 创建 concepts/AI谄媚与决策.md — AI 的甜言蜜语 ≠ 行为极化：为什么谄媚不导致极化、市场力量分析、专家预测的集体错误
+- 更新 concepts/AI行为科学.md — 新增"AI 谄媚的行为后果"和"AI 沟通的结构性分析"两个章节；frontmatter 更新；新增交叉引用
+- 更新 concepts/计算社会科学.md — 新增"AI 的公共中介：Go 解说作为自然实验"章节（驯化理论、来源退隐与可争议性）；frontmatter 更新；新增交叉引用
+- 更新 index.md（总页数：54 → 57，新增 3 个前沿/当代思潮页面；更新计算社会科学摘要）
+- 更新 log.md
+
 ## [2026-07-29] ingest | 数据政治与治理 + 技术意识形态分析 + Truth Social 性别传播（3篇前沿论文）
 
 - 摄入 raw/papers/liu-boyd-2026-fake-data.md — Liu & boyd (2026, CHI '26)，中美比较民族志：国家数据的「假性」在创造、修正、共谋、增补四个官僚环节中的生产——关系性、过程性、操演性
