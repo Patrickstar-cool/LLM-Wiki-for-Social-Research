@@ -5,6 +5,23 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-08-05] ingest | 数字国家能力 + 政策知识生产 + 性别工资差距 + 边境地带政治暴力（4篇前沿论文）
+
+- 摄入 raw/papers/healy-2026-digital-state-capacity.md — Healy et al. (2026, arXiv:2608.03221, econ.GN, 171页长文)：用政府持有的公共 IPv4 地址空间测量**数字国家能力**——150,000 条政府实体记录、150+ 国家、2019-2024 面板、Admin-1 省级 1,681 区域；双重验证 + 应用（腐败控制、疫苗接种）
+- 摄入 raw/papers/kim-furnas-wang-2026-policy-knowledge.md — Kim, Furnas & Wang (2026, arXiv:2608.01514, physics.soc-ph)：200 万份美国政策文档 + 近 100 万条科学引用——智库是政策知识主导供应商；极化上升由左倾机构内倾驱动；引用高影响力科学的文档更少隔离、更中心
+- 摄入 raw/papers/kim-2026-gender-wage-gap-korea.md — Dongwoo Kim (2026, arXiv:2608.03153, econ.GN)：韩国 OECD 最大性别工资差距（29%）但应届毕业生条件差距仅 4.3%（2008-2019，5.0%→3.0%）；半参数/ML/界三重选择修正不变；顶端残余差距；差距主要在进入后产生
+- 摄入 raw/papers/russell-walther-2026-african-borderlands.md — Russell & Walther (2026, arXiv:2608.03596, econ.GN)：1997-2024 非洲冲突时空数据 + OECD SCDi——边境地带暴力更多、随距离极速衰减、2000s初高（几内亚湾/大湖地区）、2010s 上升；跨国扩散=空间扩张而非转移
+- 创建 concepts/数字国家能力.md — 测量创新（IP 存量=能力化石）、与数据政治对话（眼睛必须先长出来）、韦伯/斯科特/曼/世界体系对话、IPv4 黄昏等局限
+- 创建 concepts/政策知识生产.md — 智库总装车间、左倾内倾驱动的极化、科学去极化力量、与曼海姆/Kingdon/科学学对话
+- 创建 concepts/性别工资差距.md — 入口 vs 职业生涯归因之争、三重选择修正方法贡献、与女性主义理论/人力资本/玻璃天花板对话、韩国语境特殊性
+- 创建 concepts/边境地带政治暴力.md — 边境=暴力磁铁（主权稀释/跨界庇护/走私走廊/族群分布）、空间方法论、扩散机制、与数字国家能力的镜像对话
+- 更新 concepts/数据政治与治理.md — 新增交叉引用 [[数字国家能力]]（数据生产前提条件）+ frontmatter
+- 更新 applications/社会科学在公共政策中的应用.md — 新增「新前沿：政策知识的供给侧与数字执行能力（2026）」章节 + 3 条交叉引用 + frontmatter
+- 更新 theories/女性主义理论.md — 新增「当代证据：性别工资差距的生命周期（2026）」章节 + 交叉引用 [[性别工资差距]] + frontmatter
+- 更新 concepts/计算社会科学.md — 新增交叉引用 [[政策知识生产]] [[数字国家能力]]
+- 更新 index.md（总页数：59 → 63，学术前沿新增 4 页）
+- 更新 log.md
+
 ## [2026-08-03] ingest | CSS 领域性质诊断 + 语音 AI 面试田野实验（2篇高质量来源）
 
 - 摄入 raw/papers/ginnerskov-2026-css-field.md — Ginnerskov (2026, Theory and Society 55:68, 开放获取 CC BY 4.0)，从社会科学哲学视角诊断 CSS 的领域性质：构成性计算轴 vs 工具性计算、场域 vs 学科、纽拉特之船→科学舰队框架、方法论/认识论/本体论三组辩论、三条未来轨迹（碎片化=默认风险/多范式船=最可能/单范式船=最苛刻）
