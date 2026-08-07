@@ -5,6 +5,20 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，重新开始。
 
+## [2026-08-07] ingest | 生成式AI与教育差距 + 城市与政治暴力 + AI音乐与文化同质化（3篇前沿论文）
+
+- 摄入 raw/papers/cruces-2026-genai-education-gap.md — Cruces, Fernández Meijide, Galiani, Gálvez & Lombardi (2026, arXiv:2608.04198, econ.GN, AEA-RCT 0016607)：1,174 名阿根廷成年人预注册随机在线实验（企业外，保留教育异质性）——AI 使低教育组 +1.242 SD、高教育组 +0.834 SD；无 AI 时教育差距 0.548 SD → 有 AI 时 0.139 SD（关闭 75%）；无 AI 后续模块排除纯委托解释（低教育保留 +0.171 SD，但 0.200 SD 差距重现）；高强度 AI × 高投入才产生后续保留
+- 摄入 raw/papers/radil-walther-2026-cities-violence.md — Radil & Walther (2026, arXiv:2608.03570, econ.GN/stat.AP)：ACLED + Africapolis，17 国 2012–2025 中——85% 暴力在城市聚集区 30km 内（40% 城内 + 44% 城郊）；大城市境内暴力最多、近边境小城镇外围暴力更多（边境 40km 效应）；2012 以来城市内份额下降 = 冲突乡村化；挑战「城市化冲突」叙事（Kaldor & Sassen），叛乱策略性交替使用城乡资源；空间冲突生命周期
+- 摄入 raw/papers/slendebroek-2026-ai-music-homogenization.md — Slendebroek & Metaxa (2026, AAAI/ACM AIES 2026, arXiv:2608.06106, cs.CY)：审计 Suno 与 Lyria 3 × 4 类型 × 各 100 首 vs 人类语料（72 MIR 特征 + 多重诊断）——Lyria 压缩类型内多样性、Suno 塌缩类型间界限（−36%）、两系统不趋同、分类器近乎完美区分 AI/人类、null-prompt 揭示学习先验；同质化从流通端迁入生产端
+- 创建 concepts/生成式AI与教育差距.md — 技能民主化 vs 技能偏向之争的实验证据：差距关闭 75% 但不消失、非纯委托、AI×努力交互；与性别工资差距（差距生命周期）、劳动过程理论（概念/执行分离）、AI行为科学对话
+- 创建 concepts/城市与政治暴力.md — 城市/乡村双重暴力逻辑、规模等级与边境邻近效应、空间冲突生命周期、乡村化可逆性；与边境地带政治暴力（姊妹篇双重镜像）、数字国家能力（能力赤字）、冲突论对话
+- 创建 concepts/AI音乐与文化同质化.md — 两种结构性同质化、下游→上游迁移论、正义意涵（可读性/价值/认识论合法性）；与批判理论（文化工业的算法完成）、布尔迪厄（区隔的算法化）、AI行为科学（审计方法论扩展）对话
+- 更新 concepts/边境地带政治暴力.md — 新增交叉引用 [[城市与政治暴力]]（姊妹篇双重极点）
+- 更新 concepts/AI行为科学.md — 新增交叉引用 [[生成式AI与教育差距]] [[AI音乐与文化同质化]]
+- 更新 paradigms/批判理论.md — 新增交叉引用 [[AI音乐与文化同质化]]（文化工业的算法完成）
+- 更新 index.md（总页数：63 → 66，学术前沿新增 3 页）
+- 更新 log.md
+
 ## [2026-08-05] ingest | 数字国家能力 + 政策知识生产 + 性别工资差距 + 边境地带政治暴力（4篇前沿论文）
 
 - 摄入 raw/papers/healy-2026-digital-state-capacity.md — Healy et al. (2026, arXiv:2608.03221, econ.GN, 171页长文)：用政府持有的公共 IPv4 地址空间测量**数字国家能力**——150,000 条政府实体记录、150+ 国家、2019-2024 面板、Admin-1 省级 1,681 区域；双重验证 + 应用（腐败控制、疫苗接种）
