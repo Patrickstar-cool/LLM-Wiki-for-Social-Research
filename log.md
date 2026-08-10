@@ -151,3 +151,21 @@
 - 创建 paradigms/批判理论.md — 法兰克福学派、三代演变、核心概念与当代发展
 - 创建 concepts/计算社会科学.md — 方法体系、学术生态与前沿方向
 - 更新 index.md（总页数：6）
+
+## [2026-08-10] ingest | 环境正义 + 算法引导与住房歧视 + 社会流动（3篇前沿论文）
+
+- 摄入 raw/papers/cottafava-2026-environmental-justice-networks.md — Cottafava, Nicolás-Carlock, Llavero-Pasquina & Martínez-Alier (2026, arXiv:2603.29722, physics.soc-ph)：EJAtlas 网络分析——3,396 起冲突、6,244 家公司、11,231 个环境正义组织——公司网络部门内聚（59% LCC）、EJO 网络跨部门去中心化（81% LCC、平均路径 3.7）；生态不等价交换（熵出口/环境负债）；全球环境正义运动真实存在
+- 摄入 raw/papers/samad-2026-llm-housing-steering.md — Samad, Lam, Mügge-Durum & Akinwumi (2026, arXiv:2606.06694, cs.CY)：7 个 LLM × 4 美国城市 × 3 提示条件的配对测试行为审计——种族引导是「解释许可」的涌现行为（身份×偏好×空间逻辑）；偏好条件化放大引导（同一偏好不同解释）；城市=羊皮纸，非中性测试单元；FHA/不同影响法律框架与 Meta 案先例
+- 摄入 raw/papers/cattan-2026-indonesia-multigenerational.md — Cattan, Dalla-Zuanna, Stuhler & Wong (2026, arXiv:2604.19969, econ.GN)：IFLS 三代教育流动——祖父母系数为负（多代际流动高于亲子外推）；信贷约束（1997-98 金融危机）与家族式婚配两机制；Becker-Tomes 原版可正可负（Solon 简化版强制为负）
+- 创建 concepts/环境正义.md — 生态分配冲突、熵经济、商品边疆、生态不等价交换；公司 vs EJO 网络结构不对称表；与[[世界体系理论]]（生态资产负债表）、[[依附理论]]（生态转向网络证据）、[[后殖民理论]]、[[冲突论]]、[[去殖民研究方法论]]（共同生产）对话
+- 创建 concepts/算法引导与住房歧视.md — 歧视形态变迁史（红线→中介→算法→LLM）；配对测试方法论；引导=解释许可的涌现；城市空间逻辑异质性；与[[AI行为科学]]（支柱一案例扩展）、[[数据政治与治理]]（空间准入中介）、[[城市与政治暴力]]、[[芝加哥学派]]对话
+- 创建 concepts/社会流动.md — 代际 vs 多代际测量之争；印尼反例；信贷约束与婚配规范机制；Becker-Tomes 理论贡献；与[[性别工资差距]]（测量窗口姊妹篇）、[[生成式AI与教育差距]]（代际后果）、[[定量研究方法论]]、[[世界体系理论]]对话
+- 更新 theories/世界体系理论.md — 新增「生态维度：环境负债与不等价交换」章节 + 交叉引用 [[环境正义]] + frontmatter
+- 更新 concepts/AI行为科学.md — 新增「案例扩展：住房搜索中的种族引导审计」章节 + 交叉引用 [[算法引导与住房歧视]] + frontmatter
+- 更新 concepts/计算社会科学.md — 新增 3 条交叉引用（[[环境正义]] [[算法引导与住房歧视]] [[社会流动]]）+ frontmatter
+- 更新 concepts/性别工资差距.md — 新增交叉引用 [[社会流动]]（测量窗口之争的代际版本）+ frontmatter
+- 更新 concepts/生成式AI与教育差距.md — 新增「与社会流动：即时压缩 vs 代际传递」章节 + frontmatter
+- 更新 index.md（总页数：66 → 69，学术前沿新增 3 页）
+- 更新 log.md
+
+注：Abramson et al. (2026, ARS) 预印本（arXiv:2509.12503）已在此前摄入（raw/papers/abramson-2026-qualitative-ai.md），本次搜索再次命中，未重复摄入。

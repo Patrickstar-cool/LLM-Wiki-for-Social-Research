@@ -1,11 +1,11 @@
 ---
 title: AI 行为科学
 created: 2026-07-24
-updated: 2026-07-31
+updated: 2026-08-10
 type: frontier
 era: contemporary
 tags: [AI-social-science, computational-social-science, behavioral-economics, frontier, methodology, sycophancy, human-AI-interaction]
-sources: [raw/papers/jackson-2026-ai-behavioral-science.md, raw/papers/conlon-2026-ai-sycophancy.md, raw/papers/fenoglio-2026-asymmetric-communication.md]
+sources: [raw/papers/jackson-2026-ai-behavioral-science.md, raw/papers/conlon-2026-ai-sycophancy.md, raw/papers/fenoglio-2026-asymmetric-communication.md, raw/papers/samad-2026-llm-housing-steering.md]
 confidence: medium
 contested: false
 ---
@@ -148,6 +148,18 @@ Fenoglio (2026) 的"不对称沟通"框架提供了一个补充性的理论视�
 
 这意味着 AI 行为科学的三大支柱都需要在"不对称沟通"的前提下重新审视：我们不是在评估一个有主观意义的智能体的行为——而是在评估一个**被人类赋予了沟通功能但不承担规范责任的系统**的行为模式。
 
+### 案例扩展：住房搜索中的种族引导审计（2026）
+
+支柱一的工具箱正在从实验室走向执法场景。Samad 等人（2026）^[raw/papers/samad-2026-llm-housing-steering.md] 把民权执法 60 年的**配对测试**（paired-testing）方法论移植到 LLM 审计：7 个模型 × 4 个美国城市 × 3 种提示条件，测试住房 zipcode 推荐中的种族引导。
+
+三个对 AI 行为科学重要的发现：
+
+1. **引导是涌现的，不是静态属性**——同一模型在不同城市、不同种族用户、不同偏好条件下表现完全不同——审计结论高度依赖测试情境
+2. **偏好条件化放大引导**——加入生活方式偏好后，出现引导的模型数量增加或重构——LLM 对同一偏好（如"好学校"）依据用户种族做不同解释——歧视从"拒绝服务"变成"服务的解释差异"
+3. **城市不是中性测试单元**——模型内化的是具体城市的空间逻辑（红线的历史沉积）——审计本身需要"地理化"，一个市场的结论不能推广到另一个
+
+这为支柱一贡献了一个方法论教训：**AI 行为审计必须情境化、持续化**——单点、单城、单模型的评估不足以支持公平性结论。详见 [[算法引导与住房歧视]]。
+
 ## 批评与开放问题
 
 1. **"行为审计"是否足够？** ——如果 AI 通过了所有行为测试，但内部"目标"与人类价值不一致——在关键时刻可能出问题
@@ -161,6 +173,7 @@ Fenoglio (2026) 的"不对称沟通"框架提供了一个补充性的理论视�
 - [[语音AI面试田野实验]] — 三支柱的汇聚案例：70,000 人随机实验评估 AI 面试——评估 AI、用 AI 研究人类、人-AI 生态同时在场
 - [[生成式AI与教育差距]] — AI 缩小任务执行层教育差距（75%）但人力资本仍塑造无辅助表现：人-AI 互补的证据
 - [[AI音乐与文化同质化]] — 算法审计进入创意生产域：AI 输出结构如何塑造文化供给
+- [[算法引导与住房歧视]] — 配对测试审计进入住房领域：引导是身份×偏好×空间逻辑的涌现产物
 - [[AI谄媚与决策]] — AI 的态度 ≠ AI 的实质影响：谄媚不去极化的行为证据
 - [[不对称沟通]] — LLM 输出的意义在接收方——不对称沟通的结构性分析
 - [[行为经济学与决策研究]]
