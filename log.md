@@ -169,3 +169,18 @@
 - 更新 log.md
 
 注：Abramson et al. (2026, ARS) 预印本（arXiv:2509.12503）已在此前摄入（raw/papers/abramson-2026-qualitative-ai.md），本次搜索再次命中，未重复摄入。
+
+
+## [2026-08-12] ingest | 学术分层 + 幽灵工作与情感劳动 + 可复现性（4篇前沿论文）
+
+- 摄入 raw/papers/cook-2026-sociology-of-sociology.md — Cook (2026, arXiv:2601.04579, physics.soc-ph)：社会学的社会学——连接 1970 年以来全部博士论文与期刊文献；三大顶刊对低声望博士项目校友的声望偏见持续（过度发表+引用不足=光环效应）；top20 机构占约 75% 发文；ASR 偏见最重；AJS 对 UChicago 的本校偏见 2000 年后加剧、Social Forces 对 UNC-CH 的偏见消失（天然对照实验）；顶刊=年轻学者的职业筛选装置（博士毕业后 7-9 年）
+- 摄入 raw/papers/rahman-2026-ghostcrafting.md — Rahman & Sultana (2026, arXiv:2512.21649, cs.HC)：孟加拉平台劳动 8 个月民族志（n=34）——「幽灵工艺 AI」概念扩展 Gray & Suri 的 ghost work：工人物质支撑 AI 系统却被 NDA/作品集禁令/诉讼威胁抹除署名；情境化学习（网吧、外语教程、WhatsApp 群）与战术库（VPN 伪装美国身份、图片编码绕过平台费）；后殖民劳动等级
+- 摄入 raw/papers/mo-2026-game-companionship.md — Mo et al. (2026, arXiv:2607.24363, cs.HC)：中国游戏陪玩 22 人访谈——「订单约束」机制：订单内深度表演+订单后完全情感抽离；陪玩-客户-俱乐部三边网络修正零工双边治理模型；身份流动性（陪玩↔客户↔运营者）
+- 摄入 raw/papers/shah-2026-reproducibility-agents.md — Shah, Hopfgartner & Bleier (2026, arXiv:2602.08561, cs.SE/cs.CL, WWW Companion 26)：130 个合成测试用例对比可复现性修复——prompt-based 31-79% vs agent-based 69-96%；结构逻辑缺失最难；>50% 研究者无法复现自己（Baker 2016）、74% R 脚本跑不通（Trisovic 2022）
+- 创建 concepts/学术分层与精英主义.md — 科学社会学：期刊金字塔、声望偏见、本校偏见、顶刊年龄结构；默顿不完美科学假说→布尔迪厄趣味政治→Zuckerman 科学精英；与[[政策知识生产]][[意识形态的计算框架]]对话
+- 创建 concepts/幽灵工作与全球数据劳动.md — ghost work→ghostcrafting；AI 的署名负债；情境化学习与战术库；与[[劳动过程理论]][[依附理论]][[后殖民理论]][[世界体系理论]]对话
+- 创建 concepts/情感劳动.md — Hochschild 1983 → 数字情感劳动 → 订单约束机制；三边治理与身份流动性；与[[符号互动论]][[女性主义理论]][[劳动过程理论]]对话
+- 更新 theories/劳动过程理论.md — 新增「数字劳动的新形态：幽灵劳动与情感劳动」章节（控制对象从身体/认知推进到署名与情感）+ 2 条交叉引用 + frontmatter
+- 更新 concepts/计算社会科学.md — 新增「可复现性危机与 AI 修复」章节（Shah 2026 + Baker/Trisovic 背景 + CORE-Bench/PaperRepro）+ 交叉引用[[学术分层与精英主义]] + frontmatter（tag 加 reproducibility）
+- 更新 index.md（总页数：69 → 72，学术前沿新增 3 页）
+- 更新 log.md
