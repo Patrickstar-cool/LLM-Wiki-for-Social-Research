@@ -184,3 +184,17 @@
 - 更新 concepts/计算社会科学.md — 新增「可复现性危机与 AI 修复」章节（Shah 2026 + Baker/Trisovic 背景 + CORE-Bench/PaperRepro）+ 交叉引用[[学术分层与精英主义]] + frontmatter（tag 加 reproducibility）
 - 更新 index.md（总页数：69 → 72，学术前沿新增 3 页）
 - 更新 log.md
+
+## [2026-08-14] ingest | 算法公平审计 + 性别推断与算法测量 + 经济距离与城市分层 + 组织AI采用（4篇前沿论文）
+
+- 摄入 raw/papers/galdon-clavell-2026-employment-fairness-audit.md — Galdón-Clavell (2026, arXiv:2608.13022, cs.CY)：巴塞罗那公共就业机构 Barcelona Activa（TalentClue 平台）端到端公平审计——497,000 条候选-职位流水线、7 阶段、2017-2022；二元性别表面无差异但薪资/年龄/性别认同分层巨大（女性中薪 DIR=0.786、46-55 岁女性 DIR=0.77、非二元 DIR=0.295、55+ 完全缺席）；供应商-部署者信息不对称
+- 摄入 raw/papers/dong-wang-2026-gender-prediction-legitimacy.md — Dong & Wang (2026, arXiv:2608.13444, cs.CY)：算法性别推断「不合法 vs 无效」解耦——transfeminist 区分 misogyny/transphobia；推断可测前者但伤害后者；三案例（图像模型审计、电影研究、姓名推断）
+- 摄入 raw/papers/nie-2026-economic-distance-urban-mobility.md — Nie et al. (2026, arXiv:2608.12180, physics.soc-ph)：109 美国城市移动记录——「经济距离」统一透镜：0.25 分位经济半径、向上结构性天花板 vs 向下城市异质性、重力模型验证独立摩擦、四种流动体制（affluent-confined 分层最强）
+- 摄入 raw/papers/chatterji-2026-organizations-use-ai.md — Chatterji, Holtz, Rakholia, Tambe & Weeratunga (2026, arXiv:2608.12236, econ.GN)：ChatGPT Enterprise 记录 × 财务数据——1,500+ 组织、1,700 万消息；四事实：双引擎增长、大而资源密集企业集中、跨职能跨资历、早期职业者强度最高
+- 创建 concepts/算法公平审计.md — 端到端 vs 有界评估；公平=系统涌现属性；表面均等假象；与配对测试（算法引导与住房歧视）形成方法论两极；供应商不透明与 AI Act 审计权
+- 创建 concepts/性别推断与算法测量.md — 合法性/有效性正交；misogyny vs transphobia；审计的标签依赖；与女性主义理论、算法公平审计对话（contested: true）
+- 创建 concepts/经济距离与城市分层.md — 空间分层从静态居住推进到动态移动；经济半径=机会半径；与代际流动（社会流动）、城市暴力（和平时期的暴力）、芝加哥学派对话
+- 创建 concepts/组织AI采用.md — 组织学习视角的 AI 采用；早期职业者强度=概念/执行分离新版本；企业异质性→生产率分化；与劳动过程理论、幽灵工作对话
+- 更新 theories/劳动过程理论.md、theories/女性主义理论.md、concepts/AI行为科学.md、concepts/算法引导与住房歧视.md、concepts/幽灵工作与全球数据劳动.md、concepts/社会流动.md、concepts/计算社会科学.md、concepts/城市与政治暴力.md — 交叉引用 + 对话章节
+- 更新 index.md（总页数：72 → 76，学术前沿新增 4 页）
+- 更新 log.md
