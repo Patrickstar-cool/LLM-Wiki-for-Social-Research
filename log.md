@@ -198,3 +198,21 @@
 - 更新 theories/劳动过程理论.md、theories/女性主义理论.md、concepts/AI行为科学.md、concepts/算法引导与住房歧视.md、concepts/幽灵工作与全球数据劳动.md、concepts/社会流动.md、concepts/计算社会科学.md、concepts/城市与政治暴力.md — 交叉引用 + 对话章节
 - 更新 index.md（总页数：72 → 76，学术前沿新增 4 页）
 - 更新 log.md
+
+## [2026-08-17] ingest | 5 篇前沿论文 + 依附理论 AI 依赖新机制
+
+- 摄入 raw/papers/gillani-2026-ai-infomediary-physician.md — Gillani & Baig (2026, arXiv:2608.14399, cs.CY)：LLM 医生推荐审计——随机化 conjoint、3,024 choice set × 7 模型 × 40,068 响应；评分 3.9→4.7 = +31.4pp、费用 $90→$190 = -20.0pp；女性/少数族裔姓名 +1.3~2.9pp（$7-14/次）、位置第一 = $11；性别/族裔在自述理由 ≤0.03%——揭示权重 vs 陈述理由分离，只有行为审计能发现；deepseek-r1:7b 未过可审计性门槛；冻结设计=可复现监测仪器
+- 摄入 raw/papers/choi-2026-ai-advice-pension.md — Choi et al. (2026, arXiv:2608.11371, econ.GN)：韩国 400 人养老金组合实验（2×2：推荐内容×理由）——37% 传导率、81% 修订、修订者 95% 朝推荐方向、实施约一半、理由文本无效、Sharpe 无差异
+- 摄入 raw/papers/rohner-2026-science-under-threat.md — Rohner, Vanden Eynde & Widmer (2026, arXiv:2608.14164, econ.GN)：美国政府敏感词清单自然实验——26,676 篇经济学工作论文（NBER/CEPR/arXiv）；High-Fed 院校 GRE 语境词频 -3.4pp（p=0.008）、事件研究 2025 -0.049 → 2026 -0.080 逐年加深；约三分之二来自核心主题论文减少；排除联邦致谢后效应不变=预期性自我审查；低排名院系收缩更大（-0.053 vs -0.027）
+- 摄入 raw/papers/matter-2026-media-ownership.md — Matter & Widmer (2026, arXiv:2608.14141, econ.GN)：11,967 新闻域名（10 国）所有权链追踪——57% 单一最终所有者、45% ≥5 节点迷宫（真分散股权≠壳公司）、87% 有控制性所有者；同所有权 → 报道更相似（dyad FE 内随所有权变化，美国同样成立）
+- 摄入 raw/papers/kolb-2026-cheap-fallible-cognition.md — Kolb & Caron (2026, arXiv:2608.11512, econ.GN)：生成式 AI 作为廉价/可错认知的任务框架——暴露≠置换、任务脆弱性指数、职业=治理束、企业=分布式智能、问题选择、学徒楔、劳动需求会计等式、五个设计不等式
+- 摄入 raw/papers/murugan-2026-jagged-global-economy.md — Murugan, Aguirre, Nagaraj & Bommasani (2026, arXiv:2607.05404, econ.GN)：141 国 AI 暴露（ILO × 职业暴露）——卢森堡 2.6× 布隆迪、欧洲中亚 50% > 撒哈拉以南、91% 国家女性更暴露；汇款间接暴露：塔吉克 37% GDP 来自俄汇款、洪/危/萨 25% GDP 美汇款；暴露预测 Anthropic/MS/OpenAI 采用统计
+- 创建 concepts/算法中介与可见性分配.md — AI infomediary 概念：算法中介「人选择人」并分配可见性；声誉主导 + 反向人口学倾斜 + 解释盲区；与[[算法公平审计]][[算法引导与住房歧视]][[性别推断与算法测量]][[AI行为科学]][[数据政治与治理]]对话
+- 创建 concepts/AI建议的采纳.md — 接受端（uptake）变量：部分传导+选择性跟随+理由无效；与[[AI谄媚与决策]]合成完整传导链；与[[生成式AI与教育差距]]对照采纳率情境差异
+- 创建 concepts/学术自由的政治压力.md — 科学自我审查的因果测量协议（事件研究+DiD+置换检验+LLM 语境分类）；市场偏见 vs 国家压力；与[[学术分层与精英主义]][[政策知识生产]][[意识形态的计算框架]]对话
+- 创建 concepts/媒体所有权与新闻多样性.md — 第四权力的地基测绘；低集中+迷宫结构=问责不可见性；同所有权因果同化；与[[政策知识生产]][[不对称沟通]][[意识形态的计算框架]]对话
+- 创建 concepts/廉价认知的政治经济学.md — 廉价认知/暴露≠置换/治理束/问题选择/学徒楔/五设计不等式；与[[劳动过程理论]][[组织AI采用]][[幽灵工作与全球数据劳动]][[AI建议的采纳]][[AI音乐与文化同质化]]对话
+- 更新 theories/依附理论.md — 新增「当代前沿：AI 时代的依赖新机制（2026）」章节（汇款间接暴露=依附结构的技术翻版：出口劳动力、进口技术冲击）+ 交叉引用[[幽灵工作与全球数据劳动]][[性别工资差距]] + frontmatter
+- 更新 concepts/算法公平审计.md、concepts/AI行为科学.md、concepts/AI谄媚与决策.md、concepts/学术分层与精英主义.md、concepts/政策知识生产.md、theories/劳动过程理论.md — 交叉引用 + frontmatter
+- 更新 index.md（总页数：76 → 81，学术前沿新增 5 页，依附理论条目更新）
+- 更新 log.md

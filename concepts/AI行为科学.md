@@ -1,7 +1,7 @@
 ---
 title: AI 行为科学
 created: 2026-07-24
-updated: 2026-08-10
+updated: 2026-08-17
 type: frontier
 era: contemporary
 tags: [AI-social-science, computational-social-science, behavioral-economics, frontier, methodology, sycophancy, human-AI-interaction]
@@ -184,3 +184,4 @@ Fenoglio (2026) 的"不对称沟通"框架提供了一个补充性的理论视�
 - [[算法公平审计]] — 端到端审计：评估 AI 从模型指标推进到组织流水线——497,000 条记录的公共就业审计
 - [[性别推断与算法测量]] — 审计标签的合法性-有效性之争：测量工具可以「有效但不合法」
 - [[组织AI采用]] — 组织尺度的 AI 行为事实：1,500+ 企业、1,700 万条消息的采用图谱
+- [[AI建议的采纳]] — 接受端实验：37% 的推荐传导率——AI 对行为的影响 = 推荐质量 × 采纳率

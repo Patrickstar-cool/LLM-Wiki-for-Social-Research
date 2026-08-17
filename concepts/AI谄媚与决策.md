@@ -1,7 +1,7 @@
 ---
 title: AI谄媚与人类决策
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-17
 type: concept
 era: contemporary
 tags: [AI-social-science, behavioral-economics, decision-making, psychology]
@@ -132,3 +132,4 @@ Conlon & Schwardmann (2026) 进行了一项大型实验（1,500 名参与者、1
 - [[不对称沟通]] — LLM 的沟通结构：意义不在机器中
 - [[戈夫曼]] — 拟剧论、前台/后台
 - [[风险社会]] — 技术风险的社会分配
+- [[AI建议的采纳]] — 接受端姊妹研究：AI 端谄媚 × 人端 37% 传导——完整的建议传导链
